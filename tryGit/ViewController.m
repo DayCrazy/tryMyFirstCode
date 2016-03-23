@@ -17,12 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self _printString];
+    [self _tryDebug];
     // Do any additional setup after loading the view, typically from a nib.
 }
 #pragma mark ☞☀️print
 - (void)_printString{
     NSLog(@"try my code from Xcode");
 }
+
+- (void)_tryDebug{
+    NSLog(@"tryDebug");
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
